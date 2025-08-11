@@ -19,5 +19,6 @@ public class DemoApplication {
 	@GetMapping
 	public List<String> hello(){
 		return List.of("Hello" , "Everyone");
+//		this was about api
 	}
 }
